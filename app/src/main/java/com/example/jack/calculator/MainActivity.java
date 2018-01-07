@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         init();
         view = (TextView) findViewById(R.id.textView1);
+        String s = "this is a test for github submition";
     }
 
     public void input(char c) {
